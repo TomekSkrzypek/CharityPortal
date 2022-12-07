@@ -1,0 +1,23 @@
+.PageHeader {
+  //   max-width: 1700px;
+  display: flex;
+  height: 100vh;
+  border: 2px solid green;
+  margin: 0 auto;
+  justify-content: space-between;
+
+  &__background {
+    max-height: 100vh;
+    background-image: url(../../assets/Home-Hero-Image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    width: 50vw;
+  }
+  &__header {
+    margin: 0 auto;
+    max-width: 2000px;
+    border: 3px solid blue;
+    background-color: greenyellow;
+  }
+}

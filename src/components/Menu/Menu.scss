@@ -1,0 +1,13 @@
+.Menu{
+    list-style-type: none;
+    &__client{
+        list-style-type: none;
+       display: flex;
+       justify-content: flex-end; 
+    }
+    &__navigation{
+        list-style-type: none;
+        display: flex;
+        justify-content: flex-end; 
+    }
+}
