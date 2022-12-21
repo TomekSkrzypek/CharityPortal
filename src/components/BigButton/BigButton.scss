@@ -1,0 +1,19 @@
+.BigButton {
+  display: flex;
+  font-size: 2.5em;
+  border: 1px solid black;
+  width: 17rem;
+  height: 9rem;
+  margin: 1rem;
+  text-decoration: none;
+  color: black;
+  align-items: center;
+  justify-content: center;
+  line-height: 3rem;
+  padding: 0 4rem;
+  text-align: center;
+  &:hover {
+    border: 2px yellow solid;
+    color: white;
+  }
+}

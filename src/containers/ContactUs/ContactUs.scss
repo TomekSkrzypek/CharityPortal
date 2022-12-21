@@ -1,0 +1,48 @@
+.contactus {
+  display: flex;
+  height: 100vh;
+  flex-direction: row;
+  // display: none;
+  &-background {
+    background-image: url(../../assets/Background-Contact-Form.jpg);
+    height: 100vh;
+    opacity: 40%;
+    width: 57vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  &-decoration {
+    max-width: 200px;
+  }
+  &-contactForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &-form {
+      display: flex;
+      &-name {
+        display: flex;
+        flex-direction: column;
+      }
+      &-email {
+        display: flex;
+        flex-direction: column;
+      }
+      &-text {
+        display: flex;
+        flex-direction: column;
+        width: 40vw;
+        line-height: 3rem;
+        &-area {
+          font-size: 1rem;
+        }
+      }
+    }
+
+    &-button {
+      margin-left: auto;
+    }
+  }
+}

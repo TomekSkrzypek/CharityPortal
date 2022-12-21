@@ -1,0 +1,24 @@
+.CallToAction {
+  &-container {
+    border: 3px black dotted;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3rem;
+    gap: 1rem;
+
+  }
+  &-decoration {
+    padding: 1rem 0 3rem 0;
+  }
+}
+
+.buttons_container {
+  border: 4px white dashed;
+  display: flex;
+  flex-direction: row;
+
+  // gap: 4rem;
+}

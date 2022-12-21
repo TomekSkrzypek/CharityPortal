@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+background-color: crimson;
+}
+
+a {
+    color: unset;
+    text-decoration: none;
+}
+
+.section__padding {
+    padding: 4rem 6rem;
+    // 4 rem top and bottom, 6 rem left and right
+}
+
+.section__margin {
+    margin: 4rem 6rem;
+    // 4 rem top and bottom, 6 rem left and right
+}
+
+@media screen and (max-width: 700px){
+    .section__padding {
+        padding: 4rem;
+        // 4 rem top and bottom, only
+    }
+    
+    .section__margin {
+        margin: 4rem;
+        // 4 rem top and bottom, only
+    }
+}
+
+@media screen and (max-width: 550px){
+    .section__padding {
+        padding: 4rem 2rem;
+        // 4 rem top and bottom, 2 rem left and right
+    }
+    
+    .section__margin {
+        margin: 4rem 2rem;
+        // 4 rem top and bottom, 2 rem left and right
+    }
+}

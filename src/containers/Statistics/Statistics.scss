@@ -1,0 +1,27 @@
+.statistics {
+  display: flex;
+  justify-content: space-evenly;
+  min-height: 20vh;
+  align-items: center;
+  padding: 0 8rem 0 8rem;
+  border: 2px green solid;
+  background-color: rgb(239, 239, 80);
+  &-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 350px;
+    border: 2px pink solid;
+  }
+  &-number {
+    font-size: 6rem;
+    font-weight: 100;
+    margin: 0px 5px 20px 5px;
+  }
+  &-title {
+    margin: 0 0 20px 0;
+  }
+  &-text {
+    text-align: center;
+  }
+}

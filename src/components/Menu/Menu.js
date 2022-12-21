@@ -10,11 +10,11 @@ export function Menu() {
       </ul>
       
       <ul className="Menu__navigation">
-        <li>Start</li>
-        <li>O co chodzi?</li>
-        <li>O nas</li>
-        <li> Fundacja i organizacje</li>
-        <li>Kontakt</li>
+        <li><a href="#start">Start</a></li>
+        <li><a href="#oCoChodzi">O co chodzi?</a></li>
+        <li><a href="#oNas">O nas</a></li>
+        <li><a href="#fundacjaIOrganizacja">Fundacja i organizacje</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
       </ul>
     </div>
   );

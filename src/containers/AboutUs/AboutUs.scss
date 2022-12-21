@@ -1,0 +1,33 @@
+.aboutus {
+  &-container {
+    height: 70vh;
+    background-color: grey;
+    display: flex;
+  }
+  &-text{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    justify-content: center;
+    align-items: center;
+  }
+  &-image{
+    width: 50vw;
+    object-fit: cover;
+  }
+  &-decoration{
+    padding: 1rem 0 3rem 0;
+  }
+
+  &-signature-container{
+    margin: 0;
+    padding: 0;
+    width: 45vw;
+    background-color: aqua;
+    display: flex;
+    justify-content: flex-end;
+  }
+  &-signature{
+    padding-right: 2rem;
+  }
+}

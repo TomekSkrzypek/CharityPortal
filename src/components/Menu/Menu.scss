@@ -1,13 +1,49 @@
-.Menu{
+// .Menu{
+//     list-style-type: none;
+//     &__client{
+//         list-style-type: none;
+//        display: flex;
+//        justify-content: flex-end;
+//     }
+//     &__navigation{
+//         list-style-type: none;
+//         display: flex;
+//         justify-content: flex-end;
+//     }
+// }
+
+.Menu {
+  display: flex;
+  flex-direction: column;
+  //   justify-content: space-between;
+  align-items: flex-end;
+  padding: 2rem 4rem;
+  list-style-type: none;
+
+  &__client {
     list-style-type: none;
-    &__client{
-        list-style-type: none;
-       display: flex;
-       justify-content: flex-end; 
+    display: flex;
+    justify-content: flex-end;
+    & li {
+      padding: 1rem;
+      &:hover {
+        border: 1px white solid;
+      }
     }
-    &__navigation{
-        list-style-type: none;
-        display: flex;
-        justify-content: flex-end; 
+  }
+
+  &__navigation {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none;
+    & li {
+      padding: 1rem;
+      &:hover {
+        // box-sizing: border-box;
+        border: 0.5px white solid;
+      }
     }
+  }
 }

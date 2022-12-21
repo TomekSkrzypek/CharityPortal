@@ -1,0 +1,6 @@
+export {default as PageFooter} from './PageFooter/PageFooter'
+export {default as PageHeader} from './PageHeader/PageHeader'
+export {default as Statistics} from './Statistics/Statistics'
+export {default as Steps} from './Steps/Steps'
+export {default as AboutUs} from './AboutUs/AboutUs'
+export {default as ContactUs} from './ContactUs/ContactUs'

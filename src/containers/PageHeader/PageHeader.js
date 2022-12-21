@@ -1,15 +1,16 @@
 import React from "react";
 import "./PageHeader.scss";
-import { Menu } from "../Menu/Menu";
+import { Menu } from "../../components/Menu/Menu";
+import {CallToAction } from "../../components/CallToAction/CallToAction";
 // import "../../App.scss"
 
-const PageHeader = () => {
+const  PageHeader = () => {
   return (
     <div className="PageHeader">
       <div className="PageHeader__background"></div>
       <div className="PageHeader__header">
         <Menu />
-        <h2>Info and buttons</h2>
+        <CallToAction/>
       </div>
     </div>
   );

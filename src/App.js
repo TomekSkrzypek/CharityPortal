@@ -2,9 +2,11 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import "./App.scss";
 import Login from "./pages/Login";
+import PageHeader from "./containers/PageHeader/PageHeader";
 
-function App() {
+const App = () => {
   return (
+    
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
@@ -13,6 +15,6 @@ function App() {
       </Routes>
     </BrowserRouter>
   );
-}
+};
 
 export default App;
